@@ -10,11 +10,9 @@
 
     <body>
         <!-- Incio do menu-->
-        <nav class="menu">
-            <a href="index.html"><img width="100px" src="./imagens/logo.png">
-                <a href="produtos.html">Nossos Produtos</a>
-                <a href="loja.html">Nossas lojas</a>
-                <a href="contato.html">Contato</a></div>
+        <?php
+            include('menu.html');
+        ?>
         </nav>
         <!-- Fim do menu-->
         <header>
